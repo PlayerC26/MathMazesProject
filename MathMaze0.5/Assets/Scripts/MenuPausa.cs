@@ -18,10 +18,10 @@ public class MenuPausa : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            menuOn = !menuOn;
+            menuOn =!menuOn;
         }
 
-            if(menuOn == true)
+            if(menuOn==true)
             {
                 menuDePausa.SetActive(true);
                 Cursor.lockState = CursorLockMode.None;
