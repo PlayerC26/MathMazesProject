@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Scenes Casos/MenuLvLCas1.unity
+- path: Assets/Scenes/Scenes Casos/Caso1/Lvl2FactorComun.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

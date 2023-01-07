@@ -58,7 +58,7 @@ public class InputNomCod : MonoBehaviour
     public void Empezar()
     {
         PlayerPrefs.SetString("nombreJugador", inputName.text );
-        PlayerPrefs.SetString("nombreJugador", inputCod.text);
+        PlayerPrefs.SetString("codigoJugador", inputCod.text);
 
         SceneManager.LoadScene("Menu2");
     }
