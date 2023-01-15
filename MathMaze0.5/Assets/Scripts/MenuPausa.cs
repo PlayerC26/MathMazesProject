@@ -8,11 +8,11 @@ public class MenuPausa : MonoBehaviour
     public GameObject menuDePausa;
     private bool menuOn;
 
-   /* public void pausa()
+   public void pausa()
 
     {
         Time.timeScale = 0f;
-    }*/
+    }
 
     void Update()
     {
