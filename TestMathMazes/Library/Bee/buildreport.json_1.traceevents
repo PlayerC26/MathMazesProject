@@ -1,0 +1,714 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1675734286785310, "dur": 904995, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675734286785740, "dur": 8007, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675734286793751, "dur": 881123, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675734287674878, "dur": 15415, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675734287691200, "dur": 12, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1675734286843673, "dur":1758, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734286845442, "dur":482, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1675734286846022, "dur":54, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1675734286846076, "dur":733, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1675734286846878, "dur":1234, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734286848112, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614270, "dur":325, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614596, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614614, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614618, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614629, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614634, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614645, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614649, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614660, "dur":52, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614713, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614732, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614736, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614748, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614753, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614763, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614768, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614777, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614793, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287614843, "dur":2658, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1675734286847670, "dur":544, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286848215, "dur":9217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286857443, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1675734286857655, "dur":682, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286858338, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1675734286858467, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286858578, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1675734286858701, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286858784, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes.exe" }}
+,{ "pid":12345, "tid":1, "ts":1675734286858896, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286858949, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286859006, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286859090, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286859146, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286859365, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286859428, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286859530, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286859587, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286859665, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286859719, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286859797, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286859846, "dur":302, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286860149, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286860214, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286860299, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286860343, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286860553, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286860668, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286860742, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286860862, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286861070, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286861129, "dur":290, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286861420, "dur":121873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286983294, "dur":1406, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286984704, "dur":6503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286991208, "dur":3845, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286995055, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286995166, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286995247, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286995331, "dur":336, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286995668, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286995762, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286995837, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286995891, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286995963, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286996013, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286996095, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286996241, "dur":978, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286997221, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286997283, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286997365, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734286997525, "dur":851, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734286998377, "dur":208923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675734287207302, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734287207570, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets22.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675734287207687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734287207703, "dur":46958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets22.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675734287254710, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets20.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675734287254764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734287254770, "dur":1896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets20.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675734287256715, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets19.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675734287256779, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734287256790, "dur":31336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets19.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675734287288192, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets17.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675734287288276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734287288287, "dur":20607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets17.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675734287309036, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets16.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1675734287309156, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734287309178, "dur":255874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets16.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1675734287565117, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level11" }}
+,{ "pid":12345, "tid":1, "ts":1675734287565193, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675734287565204, "dur":18903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level11" }}
+,{ "pid":12345, "tid":1, "ts":1675734287584182, "dur":30091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734286847770, "dur":456, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734286848226, "dur":9199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734286857442, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1675734286857603, "dur":699, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734286858304, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1675734286858425, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734286858620, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675734286858755, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734286858930, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675734286858984, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734286859064, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675734286859119, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734286859209, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675734286859298, "dur":283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734286859582, "dur":232881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675734287092464, "dur":231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734287092700, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets23.assets" }}
+,{ "pid":12345, "tid":2, "ts":1675734287092794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734287092805, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets23.assets" }}
+,{ "pid":12345, "tid":2, "ts":1675734287094935, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets22.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1675734287095038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734287095053, "dur":186336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets22.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1675734287281508, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets18.assets" }}
+,{ "pid":12345, "tid":2, "ts":1675734287281597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734287281620, "dur":6402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets18.assets" }}
+,{ "pid":12345, "tid":2, "ts":1675734287288090, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets17.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1675734287288162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734287288175, "dur":240829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets17.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1675734287529232, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1675734287529958, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734287529979, "dur":3429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1675734287533472, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1675734287533534, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734287533543, "dur":4658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1675734287538264, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level26" }}
+,{ "pid":12345, "tid":2, "ts":1675734287538327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734287538336, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level26" }}
+,{ "pid":12345, "tid":2, "ts":1675734287539890, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level24" }}
+,{ "pid":12345, "tid":2, "ts":1675734287539954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734287539963, "dur":3042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level24" }}
+,{ "pid":12345, "tid":2, "ts":1675734287543086, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level22" }}
+,{ "pid":12345, "tid":2, "ts":1675734287543170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734287543185, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level22" }}
+,{ "pid":12345, "tid":2, "ts":1675734287544710, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level20" }}
+,{ "pid":12345, "tid":2, "ts":1675734287544785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734287544795, "dur":2712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level20" }}
+,{ "pid":12345, "tid":2, "ts":1675734287547569, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1675734287547629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734287547638, "dur":2928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1675734287550630, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level18.resS" }}
+,{ "pid":12345, "tid":2, "ts":1675734287550726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734287550735, "dur":9763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level18.resS" }}
+,{ "pid":12345, "tid":2, "ts":1675734287560564, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level12" }}
+,{ "pid":12345, "tid":2, "ts":1675734287560637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734287560650, "dur":5284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level12" }}
+,{ "pid":12345, "tid":2, "ts":1675734287566004, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level10" }}
+,{ "pid":12345, "tid":2, "ts":1675734287566076, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734287566086, "dur":9657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level10" }}
+,{ "pid":12345, "tid":2, "ts":1675734287575806, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1675734287575884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675734287575898, "dur":2494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1675734287578497, "dur":35785, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734286847597, "dur":558, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734286848155, "dur":9267, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734286857443, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1675734286857603, "dur":724, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734286858329, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1675734286858474, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734286858562, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1675734286858687, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734286858763, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1675734286858898, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734286858994, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675734286859052, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734286859129, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675734286859195, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734286859392, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675734286859443, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734286859669, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675734286859719, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734286859806, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675734286859858, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734286860076, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675734286860137, "dur":231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734286860369, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675734286860432, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734286860602, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675734286860658, "dur":389, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734286861049, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675734286861106, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734286861333, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675734286861380, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734286861598, "dur":393155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675734287254754, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287254849, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1675734287254914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287254921, "dur":4462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1675734287259483, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets18.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287259585, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287259607, "dur":150799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets18.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287410474, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675734287410546, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287410560, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675734287412493, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287412584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287412595, "dur":105751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287518451, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level8" }}
+,{ "pid":12345, "tid":3, "ts":1675734287518541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287518553, "dur":3226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level8" }}
+,{ "pid":12345, "tid":3, "ts":1675734287521847, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level7.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287521921, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287521937, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level7.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287523924, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level6" }}
+,{ "pid":12345, "tid":3, "ts":1675734287524008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287524019, "dur":7420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level6" }}
+,{ "pid":12345, "tid":3, "ts":1675734287531509, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287531587, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287531609, "dur":2564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287534240, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level26.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287534304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287534313, "dur":4386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level26.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287538761, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level24.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287538832, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287538872, "dur":1920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level24.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287540863, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level23.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287540928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287540942, "dur":3514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level23.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287544531, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level21" }}
+,{ "pid":12345, "tid":3, "ts":1675734287544612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287544624, "dur":3012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level21" }}
+,{ "pid":12345, "tid":3, "ts":1675734287547691, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1675734287547752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287547762, "dur":2793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1675734287550616, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level19" }}
+,{ "pid":12345, "tid":3, "ts":1675734287550690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287550708, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level19" }}
+,{ "pid":12345, "tid":3, "ts":1675734287552084, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level17.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287552160, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287552174, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level17.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287553652, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level16" }}
+,{ "pid":12345, "tid":3, "ts":1675734287553725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287553737, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level16" }}
+,{ "pid":12345, "tid":3, "ts":1675734287555859, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level14.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287555949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287555958, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level14.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287557980, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level12.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287558060, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287558075, "dur":8035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level12.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287566161, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287566232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287566238, "dur":9624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675734287575915, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1675734287576063, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675734287576165, "dur":38185, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734286847666, "dur":541, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734286848207, "dur":9216, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734286857441, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1675734286857632, "dur":696, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734286858329, "dur":492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1675734286858821, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734286858999, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675734286859061, "dur":358, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734286859420, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675734286859482, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734286859818, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675734286859874, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734286859953, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675734286860007, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734286860086, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675734286860135, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734286860217, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675734286860268, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734286860474, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675734286860532, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734286860772, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675734286860850, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734286860927, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675734286861063, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734286861221, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675734286861259, "dur":243, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734286861503, "dur":120664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675734286982167, "dur":5157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734286987328, "dur":71723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675734287059055, "dur":365, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287059494, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets27.assets" }}
+,{ "pid":12345, "tid":4, "ts":1675734287059606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287059621, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets27.assets" }}
+,{ "pid":12345, "tid":4, "ts":1675734287062032, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets26.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287062098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287062113, "dur":193312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets26.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287255498, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1675734287255617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287255630, "dur":76629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1675734287332324, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":4, "ts":1675734287332396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287332406, "dur":71969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":4, "ts":1675734287404446, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets12.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287404528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287404540, "dur":6235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets12.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287410840, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1675734287410912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287410922, "dur":4987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1675734287415984, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287416066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287416079, "dur":89817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287505975, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1675734287506053, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287506070, "dur":5052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1675734287511205, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level9.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287511293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287511313, "dur":4640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level9.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287516081, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level9" }}
+,{ "pid":12345, "tid":4, "ts":1675734287516176, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287516194, "dur":1765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level9" }}
+,{ "pid":12345, "tid":4, "ts":1675734287518027, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level8.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287518127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287518140, "dur":3785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level8.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287522002, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level7" }}
+,{ "pid":12345, "tid":4, "ts":1675734287522076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287522088, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level7" }}
+,{ "pid":12345, "tid":4, "ts":1675734287523711, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level6.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287523782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287523798, "dur":6490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level6.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287530366, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287530436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287530443, "dur":2981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287533487, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level27.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287533550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287533558, "dur":4795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level27.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287538407, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level25" }}
+,{ "pid":12345, "tid":4, "ts":1675734287538464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287538470, "dur":2642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level25" }}
+,{ "pid":12345, "tid":4, "ts":1675734287541183, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level22.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287541252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287541261, "dur":3324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level22.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287544653, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level20.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287544805, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287544812, "dur":2946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level20.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287547816, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level19.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287547878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287547998, "dur":2926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level19.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287550997, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level18" }}
+,{ "pid":12345, "tid":4, "ts":1675734287551087, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287551098, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level18" }}
+,{ "pid":12345, "tid":4, "ts":1675734287552549, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level16.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287552618, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287552662, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level16.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287554309, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level15.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287554425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287554437, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level15.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287556817, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level13" }}
+,{ "pid":12345, "tid":4, "ts":1675734287556903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287556912, "dur":8224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level13" }}
+,{ "pid":12345, "tid":4, "ts":1675734287565192, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level10.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287565279, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287565294, "dur":2737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level10.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675734287568201, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1675734287568267, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675734287568286, "dur":8740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1675734287577078, "dur":37235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286847553, "dur":595, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286848151, "dur":9266, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286857442, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1675734286857449, "dur":557, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286858014, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1675734286858016, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286858198, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1675734286858348, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286858433, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1675734286858537, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286858727, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286858836, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286859077, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286859128, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286859379, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286859440, "dur":293, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286859734, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286859792, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286860067, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286860128, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286860382, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286860442, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286860538, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286860595, "dur":252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286860847, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286860897, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286861058, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286861121, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286861347, "dur":57734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286919081, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286919264, "dur":45887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286965153, "dur":1411, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286966567, "dur":1431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286967998, "dur":516, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286968517, "dur":21530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286990047, "dur":2211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286992260, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286992363, "dur":3083, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286995448, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286995531, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286995808, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286995946, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286996026, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286996335, "dur":1751, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286998088, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286998152, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286998229, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675734286998277, "dur":302, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734286998580, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1675734286998695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734287000650, "dur":6486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1675734287007203, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675734287007263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734287007272, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675734287008538, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":5, "ts":1675734287008641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734287008654, "dur":9516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":5, "ts":1675734287018241, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675734287018305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734287018317, "dur":6519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675734287024904, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1675734287024959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734287024968, "dur":26986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1675734287052004, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":5, "ts":1675734287052055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734287052064, "dur":2788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":5, "ts":1675734287054935, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675734287055019, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734287055037, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675734287056441, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets27.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1675734287056522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734287056543, "dur":198296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets27.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1675734287254895, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1675734287254977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734287254984, "dur":74813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1675734287329893, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets16.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675734287329978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734287329992, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets16.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675734287332211, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets15.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675734287332306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734287332321, "dur":72133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets15.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675734287404582, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675734287404707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734287404716, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675734287406314, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675734287406390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734287406402, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675734287407777, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets10.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1675734287407858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675734287407874, "dur":189782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets10.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1675734287597754, "dur":16514, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734286847762, "dur":458, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734286848220, "dur":9200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734286857442, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1675734286857739, "dur":628, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734286858368, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1675734286858488, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734286858593, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675734286858714, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734286858806, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675734286858912, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734286859116, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675734286859179, "dur":383, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734286859563, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675734286859631, "dur":272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734286859904, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675734286859962, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734286860240, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675734286860299, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734286860379, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675734286860436, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734286860533, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675734286860616, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734286860867, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675734286860936, "dur":283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734286861219, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675734286861256, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734286861487, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675734286861552, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734286861848, "dur":64788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675734286926637, "dur":336, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734286926976, "dur":48847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675734286975824, "dur":635, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734286976462, "dur":49124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675734287025587, "dur":1610, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734287027201, "dur":3954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1675734287031164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734287031175, "dur":20497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1675734287051727, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1675734287051809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734287051821, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1675734287053217, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1675734287053277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734287053290, "dur":30635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1675734287084001, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets24.assets" }}
+,{ "pid":12345, "tid":6, "ts":1675734287084108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734287084124, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets24.assets" }}
+,{ "pid":12345, "tid":6, "ts":1675734287086070, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets23.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1675734287086133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734287086143, "dur":167841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets23.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1675734287254052, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets21.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1675734287254129, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734287254147, "dur":149786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets21.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1675734287403998, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":6, "ts":1675734287404080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734287404094, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":6, "ts":1675734287405870, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets11.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1675734287405972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734287405992, "dur":6442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets11.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1675734287412501, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1675734287412593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734287412602, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1675734287414656, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1675734287414735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734287414746, "dur":141800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1675734287556624, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level13.resS" }}
+,{ "pid":12345, "tid":6, "ts":1675734287556742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734287556752, "dur":9550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level13.resS" }}
+,{ "pid":12345, "tid":6, "ts":1675734287566357, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1675734287566428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675734287566436, "dur":10334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1675734287576828, "dur":37462, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734286847867, "dur":364, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734286848231, "dur":9199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734286857443, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1675734286857717, "dur":642, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734286858360, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1675734286858502, "dur":302, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734286858805, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1675734286858944, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734286859046, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675734286859105, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734286859379, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675734286859463, "dur":498, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734286859962, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675734286860019, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734286860238, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675734286860296, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734286860368, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675734286860424, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734286860636, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675734286860685, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734286860862, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675734286860916, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734286861065, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675734286861143, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734286861335, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675734286861393, "dur":275, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734286861669, "dur":71789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675734286933459, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734286933670, "dur":4696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675734286938366, "dur":305, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734286938673, "dur":63307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675734287001980, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734287002270, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675734287002341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734287002350, "dur":16477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675734287018881, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":7, "ts":1675734287018933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734287018944, "dur":5995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":7, "ts":1675734287024986, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675734287025065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734287025073, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675734287026886, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":7, "ts":1675734287026944, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734287026952, "dur":5727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":7, "ts":1675734287032755, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675734287032825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734287032840, "dur":33236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675734287066163, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets26.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675734287066237, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734287066251, "dur":2442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets26.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675734287068768, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets25.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675734287068836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734287068846, "dur":185458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets25.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675734287254358, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets20.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675734287254436, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734287254444, "dur":212869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets20.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675734287467403, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675734287467537, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734287467556, "dur":12522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675734287480143, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1675734287480380, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734287480504, "dur":11815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1675734287492321, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734287492547, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675734287492651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675734287492885, "dur":121283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675734287614220, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1675734287614223, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286847907, "dur":332, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286848239, "dur":9216, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286857456, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1675734286857607, "dur":963, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286858571, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1675734286858697, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286858916, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675734286858984, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286859198, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675734286859244, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286859396, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675734286859453, "dur":475, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286859929, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675734286859989, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286860075, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675734286860131, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286860400, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675734286860454, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286860549, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675734286860601, "dur":475, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286861077, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675734286861139, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286861390, "dur":127868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675734286989258, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286989518, "dur":1986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675734286991504, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286991630, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675734286991726, "dur":3191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286994922, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675734286995091, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286995209, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675734286995307, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286995562, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675734286995692, "dur":804, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286996497, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675734286996633, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286996713, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675734286996761, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286996840, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675734286996884, "dur":1231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286998117, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675734286998215, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734286998433, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1675734286998695, "dur":1445, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287000142, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets9.resource" }}
+,{ "pid":12345, "tid":8, "ts":1675734287000251, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287000597, "dur":12056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets9.resource" }}
+,{ "pid":12345, "tid":8, "ts":1675734287012707, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675734287012769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287012780, "dur":15574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675734287028442, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675734287028510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287028526, "dur":1872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675734287030459, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":8, "ts":1675734287030578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287030594, "dur":3604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":8, "ts":1675734287034258, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675734287034344, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287034364, "dur":11275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675734287045694, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":8, "ts":1675734287045747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287045756, "dur":2079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":8, "ts":1675734287047893, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675734287047956, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287047973, "dur":20844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675734287068871, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets25.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675734287068930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287068937, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets25.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675734287072060, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets24.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675734287072134, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287072153, "dur":182046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets24.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675734287254264, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets21.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675734287254369, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287254395, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets21.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675734287256477, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets19.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675734287256600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287256617, "dur":272495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/sharedassets19.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675734287529195, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level5.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675734287529314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287529329, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level5.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675734287531440, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1675734287531526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287531537, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1675734287533899, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level27" }}
+,{ "pid":12345, "tid":8, "ts":1675734287533963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287533971, "dur":4253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level27" }}
+,{ "pid":12345, "tid":8, "ts":1675734287538288, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level25.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675734287538356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287538363, "dur":2437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level25.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675734287540878, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level23" }}
+,{ "pid":12345, "tid":8, "ts":1675734287540953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287540963, "dur":3292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level23" }}
+,{ "pid":12345, "tid":8, "ts":1675734287544336, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level21.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675734287544411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287544461, "dur":7502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level21.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675734287552087, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level17" }}
+,{ "pid":12345, "tid":8, "ts":1675734287552199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287552209, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level17" }}
+,{ "pid":12345, "tid":8, "ts":1675734287554509, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level15" }}
+,{ "pid":12345, "tid":8, "ts":1675734287554581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287554717, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level15" }}
+,{ "pid":12345, "tid":8, "ts":1675734287556586, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level14" }}
+,{ "pid":12345, "tid":8, "ts":1675734287556672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287556689, "dur":4105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level14" }}
+,{ "pid":12345, "tid":8, "ts":1675734287560868, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level11.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675734287560937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287560947, "dur":6994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level11.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675734287568009, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675734287568098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287568114, "dur":7704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675734287575877, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1675734287575938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675734287575944, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PlayerC26/Documents/MathMazes/TestMathMazes_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1675734287577790, "dur":36509, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675734287620013, "dur":3726, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1675734287691311, "dur": 893, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675734287691184, "dur": 1046, "ph": "X", "name": "Write chrome-trace events", "args": {} },
